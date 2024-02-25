@@ -1,0 +1,158 @@
+head {
+    font-family: 'Arial';
+}
+
+body {
+    font-family: 'Arial';
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    text-align: center;
+}
+
+.header__title{
+    padding-top: 30px;
+    margin-bottom: 15px;
+    font-size: 70px;
+}
+
+.span__menu{
+    font-family: 'Calibri';
+    padding-bottom: 30px;
+}
+
+.span-light{
+ color: rgb(167, 164, 164);
+ font-size: 10px;
+}
+
+.span-strong{
+font-size: 13px;
+}
+
+.span-strong__l{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nav{
+    position: absolute;
+    top: 32px;
+    left: 18px;
+    text-align: left;
+    left: 60px;
+    top: 99px;
+}
+
+.nav__options{
+    margin-bottom: 16px; /*revisar*/
+}
+
+.nav__menu1 {
+    color:#000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav__menu2{
+    color: grey;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.nav__link{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 0;
+}
+
+.nav__selected{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 4px 0;
+    font-weight: bold;
+}
+
+.nav__promo{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 4px 0;
+    color: rgb(243, 96, 42);
+    font-weight: bold;
+}
+
+.nav__bar{
+    display: flex;
+    position: absolute;
+    top: 32px;
+    right: 18px;
+    align-items: center; 
+    right: 65px;
+    top: 109px;
+}
+
+.nav-items__bar{
+    position: relative;
+}
+
+.items__icon{
+    width: 14px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 6px;
+}
+
+.items__input{
+    border: 0;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    padding: 4px 4px 4px  32px;
+}
+
+.icons{
+    width: 15px;
+    padding: 5px;
+}
+
+.section{
+    display: flex;
+}
+
+.gallery{
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.product{
+    position: relative;
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+}
+
+.info{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.footer{
+    text-align: center;
+
+}
+
